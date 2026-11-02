@@ -1,6 +1,6 @@
 // userController.js
 import { clerkClient } from "@clerk/express";
-import User from "../models/User.js";
+import User from "./models/User.js";
 
 // Forwards async errors to errorHandler (needed on Express 4, harmless on Express 5)
 const asyncHandler = (fn) => (req, res, next) =>
